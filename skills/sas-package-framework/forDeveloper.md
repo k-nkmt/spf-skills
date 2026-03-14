@@ -105,7 +105,10 @@ DESCRIPTION END:
 
 ## Notes on Publishing to GitHub
 When publishing to GitHub, place the package file (packageName.zip) at the repository root.
-Package documentation (packageName.md) is optional, but it is recommended to also place it at the root when publishing.
+Package documentation (packageName.md) is optional, but it is recommended to also place it at the root when publishing.  
+
+If you are considering publishing packages related to the pharmaceutical field, we recommend publishing or collaborating through PharmaForest.  
+For more information about PharmaForest, see [PharmaForest.md](PharmaForest.md).  
 
 ### Managing Past Versions
 Framework features allow you to save past versions with different names.
@@ -231,4 +234,5 @@ If unfamiliar with git or IDEs, installing [SASPACer](https://github.com/SASPAC/
 ## References
 - Supported features and examples: reference/SupprtedType.md
 - Framework features: reference/SPF.md
+- About PharmaForest: PharmaForest.md
 - Advanced Documentation: Documentation.md

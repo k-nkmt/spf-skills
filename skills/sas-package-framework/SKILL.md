@@ -38,9 +38,10 @@ Versions are managed in YYYYMMDD format.
 When calling framework features, ensure SPFinit.sas is loaded.
 When using package features, ensure filename `packages` is specified.
 
-For descriptions of framework features for using packages as a user and creating packages as a developer, refer to the following:
-**Guide For Package Users**: forUser.md 
-**Guide For Package Developers**: forDeveloper.md
-**Framework Macro Documentation**: reference/SPF.md
+For descriptions of framework features for using packages as a user and creating packages as a developer, refer to the following:  
+- **Guide For Package Users**: forUser.md 
+- **Guide For Package Developers**: forDeveloper.md
+- **Packages for pharmaceutical industry**: PharmaForest.md
+- **Framework Macro Documentation**: reference/SPF.md
 
 Corresponding SPF version: `20260216`
