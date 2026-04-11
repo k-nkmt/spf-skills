@@ -16,6 +16,7 @@ Installs packages from the Internet.
 - `mirror=` - Mirror site specification (`0`=SASPAC, `1`=yabwon, `2`=mini.pw.edu.pl, `3`=PharmaForest)
 - `version=` - Historical version to install
 - `replace=` - Whether to replace existing files (default: `1`)
+- `backup=` - When set to `1` and a package file exists, it creates a backup copy like `_BCKP_yyyymmddJJMMSS` (default: `0`)  
 - `URLuser=` - Username for password-protected URLs
 - `URLpass=` - Password for password-protected URLs
 - `URLoptions=` - Options for URL filename
@@ -23,6 +24,7 @@ Installs packages from the Internet.
 - `instDoc=` - Whether to also download documentation (.md) (`0`=No, `1`=Yes)
 - `SFRCVN=` - Macro variable name to store return value (`<successes>.<failures>` format)
 - `github=` - GitHub username or organization name
+- `githubRepo=` - A name of a repository in GitHub, Use this option for repository names with uppercase letters.                                                                                   
 
 **Usage Examples:**
 ```sas

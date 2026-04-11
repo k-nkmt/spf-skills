@@ -6,7 +6,8 @@ When publishing, GitHub should be used as a rule.
 
 ## Naming Constraints
 Package names must be 3 to 24 characters, using only letters, underscores, and numbers, and cannot start with a number.
-As a regular expression pattern: [a-zA-Z_]\w{2,23}
+As a regular expression pattern: [a-zA-Z_]\w{2,23}  
+Uppercase repository names are available in ver. 20260409+ by specifying `githubRepo` during install, but lowercase is still recommended.  
 Versions use numbers like 1.0, 0.10.1, etc.
 
 File and folder names under the package root must use only lowercase letters, not uppercase.
