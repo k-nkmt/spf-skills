@@ -304,6 +304,8 @@ Extracts packages from a bundle.
 - `packagesRef=` - Fileref to extraction destination (default: `packages`)
 - `ods=` - Report dataset name
 - `verify=` - Execute verification after extraction (`1`=Yes, `0`=No)
+- `reportOnly=` - Only a report with bundle content be produced and printed (`1`=Yes, `0`=No)
+- `quiet=` -  Printout of the summary report should be suspended (`1`=Yes, `0`=No)
 
 **Usage Examples:**
 ```sas

@@ -3,7 +3,7 @@ name: sas-packages-framework
 description: Using the SAS Packages Framework (SPF) as a user and creating packages as a developer
 license: MIT
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # SAS Packages Framework
@@ -44,4 +44,4 @@ For descriptions of framework features for using packages as a user and creating
 - **Packages for pharmaceutical industry**: PharmaForest.md
 - **Framework Macro Documentation**: reference/SPF.md
 
-Corresponding SPF version: `20260411`
+Corresponding SPF version: `20260515`
