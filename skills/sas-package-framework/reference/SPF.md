@@ -50,6 +50,7 @@ Loads a package into the SAS session (makes macros, functions, formats, etc. ava
 - `loadAddCnt=` - Whether to load additional content (`0`=No, `1`=Yes)
 - `suppressExec=` - Whether to suppress `exec` type files (default: `0`)
 - `DS2force=` - Whether to overwrite datasets in PROC DS2 packages (default: `0`)
+- `force=` - Whether to force loading even when the specified version is already loaded (default: `0`)
 
 **Utility Macros for IML/CASL:**
 Automatically generated when loading packages containing IML modules or CASL UDFs:
@@ -118,7 +119,36 @@ Explicitly loads additional content for a package.
 %loadPackageAddCnt(SQLinDS, target=/my/custom/location)
 ```
 
+---
 
+### `%requestPackage()`
+Requests SAS package installation and loading.
+
+**Parameters:**
+- `packageName` - Package name to request (required)
+- `requiredVersion=` - Required package version
+- `sourcePath=` - Source URL for packages
+- `mirror=` - Mirror site specification (`0`=SASPAC, `1`=yabwon, `2`=mini.pw.edu.pl, `3`=PharmaForest)
+- `replace=` - Whether to replace existing files (default: `1`)
+- `backup=` - When set to `1` and a package file exists, it creates a backup copy like `_BCKP_yyyymmddJJMMSS` (default: `0`)
+- `URLuser=` - Username for password-protected URLs
+- `URLpass=` - Password for password-protected URLs
+- `URLoptions=` - Options for URL filename
+- `loadAddCnt=` - Whether to load additional content (`0`=No, `1`=Yes)
+- `instDoc=` - Whether to also download documentation (.md) (`0`=No, `1`=Yes)
+- `github=` - GitHub username or organization name
+- `githubRepo=` - Repository name in GitHub. Use this option for repository names with uppercase letters.
+- `githubToken=` - GitHub fine-grained personal access token
+- `githubTokenDebug=` - Debug level for GitHub token handling (`0`, `1`, `2`, or `3`; default: `0`)
+- `loadPackage=` - Whether to load the package after installation (`0`=No, `1`=Yes; default: `1`)
+- `force=` - Whether to force reloading even when the package is already loaded (default: `0`)
+- `ignoreDepVer=` - Whether to ignore dependency version requirements and install only the latest version (default: `0`)
+
+**Usage Examples:**
+```sas
+%requestPackage(bpUTiL) 
+%requestPackage(LibnameZIP, requiredVersion=0.1.0)
+```
 
 ---
 

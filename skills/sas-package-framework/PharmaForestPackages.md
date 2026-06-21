@@ -6,7 +6,36 @@ Do not maintain a fixed package list in this file.
 
 ## Primary Sources
 1. Package list and basic metadata (title, category, short description):
-   https://github.com/PharmaForest/PharmaForest.github.io/blob/main/repositories.js
+   https://github.com/PharmaForest/PharmaForest.github.io/blob/main/repositories.js  
+  The repository metadata in repositories.js is organized according to the following schema:
+```yaml
+repositories:
+  <repository-id>: # Unique repository identifier.
+    title: string # Display name of the repository.
+    img: string # Path or URL to the repository logo/image.
+    hint: string # Short tagline shown in the UI.
+    summary: string # Brief description of the repository.
+    license: string # License name, such as MIT or Apache-2.0.
+    authors: # Original authors of the project.
+      - string
+    maintainers: # Current maintainers of the project.
+      - string
+    features: # Key features, topics, or capabilities.
+      - string
+    macros: # SAS macros provided by the repository.
+      - string
+    badges: # Labels used for categorization, filtering, or display.
+      - string
+    links: # Related links or navigation actions.
+      - text: string # Link label shown to users.
+        href: string # External URL.
+      - navigatorKey: string # Internal navigation target or action key.
+    layout: # Position and scale used in the visualization.
+      x: number # Horizontal position.
+      y: number # Vertical position.
+      scale: number # Display scale factor.
+```
+
 2. Package-level details (usage, macros, installation, examples):
    https://github.com/PharmaForest/{PackageName}/blob/main/README.md
 

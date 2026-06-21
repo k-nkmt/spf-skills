@@ -8,7 +8,8 @@ Packages are primarily distributed through repositories in the following organiz
 
 For framework features, use `%installPackage`.
 PharmaForest primarily distributes packages related to clinical development.
-When installing packages from PharmaForest, specify `mirror=3` or `mirror=PharmaForest` as a parameter.
+When installing packages from PharmaForest, specify `mirror=3` or `mirror=PharmaForest` as a parameter.  
+For details on PharmaForest packages, refer to [PharmaForestPackages.md](PharmaForestPackages.md) for package metadata and instructions on how to access and use it.  
 
 ## Usage Examples
 

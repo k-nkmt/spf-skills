@@ -5,7 +5,7 @@ https://github.com/PharmaForest
 It primarily covers pharmaceutical industry workflows, but also includes utility packages and more.
 
 ## Using Packages
-
+For information about packages, refer to [PharmaForestPackages.md](PharmaForestPackages.md) for package metadata and instructions onhow to access and use it.  
 The hosted packages are mainly categorized into the following four types:
 output/visualization: OncoPlotter, vis_review_kit …  
 data utility: sashash, sas_dataset_json …  
