@@ -42,6 +42,7 @@ For descriptions of framework features for using packages as a user and creating
 - **Guide For Package Users**: forUser.md 
 - **Guide For Package Developers**: forDeveloper.md
 - **Packages for pharmaceutical industry**: PharmaForest.md
+- **PharmaForest Package Information Policy**: PharmaForestPackages.md
 - **Framework Macro Documentation**: reference/SPF.md
 
-Corresponding SPF version: `20260515`
+Corresponding SPF version: `20260411`
