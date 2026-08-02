@@ -3,7 +3,7 @@ name: sas-packages-framework
 description: Using the SAS Packages Framework (SPF) as a user and creating packages as a developer
 license: MIT
 metadata:
-  version: "0.1.3"
+  version: "0.2.0"
 ---
 
 # SAS Packages Framework
@@ -34,6 +34,10 @@ filename packages "<directory/containing/packages/>";
 
 Versions are managed in YYYYMMDD format.
 
+To check the version, use one of the following methods:  
+* Display macro help (e.g., `%listPackage(HELP);`).
+* Assign to a macro variable: `%let version = %SasPackagesFrameworkNotes(V);` (for versions 20260727 or later).
+
 ## Usage Details
 When calling framework features, ensure SPFinit.sas is loaded.
 When using package features, ensure filename `packages` is specified.
@@ -45,4 +49,4 @@ For descriptions of framework features for using packages as a user and creating
 - **PharmaForest Package Information Policy**: PharmaForestPackages.md
 - **Framework Macro Documentation**: reference/SPF.md
 
-Corresponding SPF version: `20260617`
+Corresponding SPF version: `20260727`

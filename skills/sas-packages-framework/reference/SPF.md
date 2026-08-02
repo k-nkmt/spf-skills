@@ -389,6 +389,9 @@ Prints help notes for SPF macros.
 %SasPackagesFrameworkNotes(*)                          /* All help */
 %SasPackagesFrameworkNotes()                           /* Macro name list */
 %SasPackagesFrameworkNotes(generatePackage helpPackage) /* Specific macros */
+
+%let version = %SasPackagesFrameworkNotes(V); /* SPF Version (Cannot use %PUT directly. Assign to a macro var first). */ 
+%put &=version;
 ```
 
 
