@@ -4,7 +4,6 @@ description = """
   Explains PharmaForest site and repository information based only on
   documents in repositories under the PharmaForest GitHub organization,
   with clear steps and no hallucination.
-  Specializes in packages #16–#30.
   Use for prompts like "What is PharmaForest?", "How do I use package X?",
   or "Show the package list".
 """
